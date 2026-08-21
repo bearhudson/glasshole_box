@@ -32,6 +32,6 @@
 The Heltec will attempt to read the datetime and log to storage when a device is detected. 
 
 #### Button Control Summary:
-Single Click	Toggles OLED Sleep
-Double Click	Enters/Exits review Mode	
-Long Press (>1.5s)	Wipes all stored logs from NVS Flash memory
+* Single Click	Toggles OLED Sleep
+* Double Click	Enters/Exits review Mode	
+* Long Press (>1.5s)	Wipes all stored logs from NVS Flash memory
