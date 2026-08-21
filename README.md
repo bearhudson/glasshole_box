@@ -27,3 +27,11 @@
 * Heltec Automation ESP32 Display & Power Management Examples (Heltec-Example / Meshtastic ESP32-S3 BSP)
 
   - The hardware-specific pin mappings for the Heltec V3 (Vext on GPIO 36, I2C display routing on GPIO 17/18/21, and PRG interrupt-driven button handling on GPIO 0).
+
+
+The Heltec will attempt to read the datetime and log to storage when a device is detected. 
+
+#### Button Control Summary:
+Single Click	Toggles OLED Sleep
+Double Click	Enters/Exits review Mode	
+Long Press (>1.5s)	Wipes all stored logs from NVS Flash memory
